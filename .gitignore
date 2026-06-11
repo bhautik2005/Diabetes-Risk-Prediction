@@ -1,0 +1,46 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE and Editor Configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Data Directory (Ignore generated data/caches, but keep the raw CSV dataset)
+/data/*
+/data/raw/
+/data/raw/*
+/data/raw/diabetes.csv
+
+# Model Binaries
+# (Ignore serialised model artifacts to keep repository size small)
+models/best_model.pkl
+
+# Keep reports/ and ui_img/ directories containing visualization images and metadata
+# (These should not be ignored since they are included in the README report)
+!reports/
+!ui_img/

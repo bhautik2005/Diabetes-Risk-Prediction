@@ -1,0 +1,43 @@
+{
+  "accuracy": 0.7143,
+  "roc_auc": 0.8185,
+  "avg_precision": 0.6934,
+  "f1_positive": 0.5849,
+  "optimal_threshold": 0.38,
+  "confusion_matrix": {
+    "TN": 79,
+    "FP": 21,
+    "FN": 23,
+    "TP": 31
+  },
+  "feature_importance": {
+    "Glucose": 0.21613146364688873,
+    "Insulin": 0.14312775433063507,
+    "BMI_Category": 0.10033340007066727,
+    "BMI": 0.09035111218690872,
+    "Age_Group": 0.08623023331165314,
+    "SkinThickness": 0.07553595304489136,
+    "Age": 0.0726235881447792,
+    "Glucose_Insulin_Ratio": 0.045082852244377136,
+    "High_Preg": 0.04503248631954193,
+    "Pregnancies": 0.04470442607998848,
+    "DiabetesPedigreeFunction": 0.04459504038095474,
+    "BloodPressure": 0.036251701414585114
+  },
+  "cv_roc_auc": 0.8374,
+  "model_name": "Logistic Regression",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_Category",
+    "Glucose_Insulin_Ratio",
+    "Age_Group",
+    "High_Preg"
+  ]
+}

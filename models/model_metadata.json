@@ -1,0 +1,29 @@
+{
+  "model_version": "1.0.0",
+  "training_date": "2026-06-11T08:38:20.925269",
+  "algorithm": "XGBoost (RandomizedSearchCV tuned)",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_Category",
+    "Glucose_Insulin_Ratio",
+    "Age_Group",
+    "High_Preg"
+  ],
+  "cv_roc_auc": 0.8374,
+  "best_params": {
+    "classifier__subsample": 0.8,
+    "classifier__scale_pos_weight": 1,
+    "classifier__n_estimators": 200,
+    "classifier__min_child_weight": 5,
+    "classifier__max_depth": 3,
+    "classifier__learning_rate": 0.01,
+    "classifier__colsample_bytree": 0.8
+  }
+}
